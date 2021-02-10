@@ -11,11 +11,21 @@
 
     <title>Fizz Buzz Game | Only a simple exercise in Javascript</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
 </head>
 
 <body>
+    <p id="demo"></p>
     
+    <script>
+        var lista="";
+        for (i=1; i<=100; i++) {
+            lista += i + " ";
+            if (i%3==0) { lista += "Fizz";}
+            if (i%5==0) { lista += "Buzz";}
+            lista += "<br/>";
+        }
+        document.getElementById("demo").innerHTML = lista;
+    </script>
+
 </body>
