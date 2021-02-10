@@ -12,6 +12,7 @@
 <br/>
 ## Link:
 Work in progress<br/>
-##Note:
+<br/>
+## Note:
 **IT_** Primo utilizzo di JavaScript.
 **EN_** My first time with JavaScript.
