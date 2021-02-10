@@ -14,5 +14,5 @@
 Work in progress<br/>
 <br/>
 ## Note:
-**IT_** Primo utilizzo di JavaScript.
-**EN_** My first time with JavaScript.
+**IT_** Primo utilizzo di JavaScript.<br/>
+**EN_** My first time with JavaScript.<br/>
