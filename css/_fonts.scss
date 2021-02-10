@@ -1,0 +1,66 @@
+/*** FONTS ***/
+:root {
+    font-size: 62.5%; /* px->rem in base 10 */
+}
+
+/* balsamiq-sans-regular - latin */
+@font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/balsamiq-sans-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/balsamiq-sans-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* balsamiq-sans-700 - latin */
+@font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/balsamiq-sans-v3-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/balsamiq-sans-v3-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*** VARIABLES ***/
+$font-h: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+$font-text: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+$font_normal: 400;
+$font_bold: 700;
+$font-size_normal: 2.4rem;
+$font-size_h1: 5.0rem;
+$line-height_normal: 3.6rem;
+$line-height_h1: 7.5rem;
+
+/*** ------------------------- *** ------------------------- *** ------------------------- *** ------------------------- ***/
+
+/*** BASECAMP ***/
+body {
+    font: {
+        family: $font-text;
+        weight: $font_normal;
+        size: $font-size_normal;
+    }
+    line-height: $line-height_normal;
+    text-align: left;
+}
+h1 {
+    font: {
+        family: $font-h;
+        weight: $font_bold;
+        size: $font-size_h1;
+    }
+    line-height: $line-height_h1;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*** MAIN ***/
+button {
+    font-weight: $font_bold;
+    text-transform: uppercase;
+}
+.fizz, .buzz {
+    font-weight: $font_bold;
+}

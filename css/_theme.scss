@@ -1,0 +1,45 @@
+/*** VARIABLES ***/
+$color-back: #ffb703;
+$color-text_white: #ffffff;
+$color-text_dark: #023047;
+$color-fizz: #219ebc;
+$color-buzz: #8ecae6;
+$color-buttonback: #fb8500;
+$color-buttonback_hover: #023047;
+
+/*** ------------------------- *** ------------------------- *** ------------------------- *** ------------------------- ***/
+
+/*** BASECAMP ***/
+body {
+    background-color: $color-back;
+    color:$color-text_dark;
+}
+h1 {
+    color: $color-text_white;
+}
+
+/*** MAIN ***/
+button {
+    background-color: $color-buttonback;
+    color: $color-text_white;
+    border: 3px solid #ffffff;
+}
+button:hover {
+    background-color: $color-buttonback_hover;
+}
+@keyframes fizzcolor {
+    0%   {color: $color-fizz;}
+    50%  {color: $color-buzz;}
+    100% {color: $color-fizz;}
+}
+.fizz {
+    animation: fizzcolor 4s infinite;
+}
+@keyframes buzzcolor {
+    0%   {color: $color-buzz;}
+    50%  {color: $color-fizz;}
+    100% {color: $color-buzz;}
+}
+.buzz {
+    animation: buzzcolor 4s infinite;
+}

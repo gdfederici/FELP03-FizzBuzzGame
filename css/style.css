@@ -1,0 +1,160 @@
+/*** FONTS ***/
+:root {
+  font-size: 62.5%;
+  /* px->rem in base 10 */
+}
+
+/* balsamiq-sans-regular - latin */
+@font-face {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/balsamiq-sans-v3-latin-regular.woff2") format("woff2"), url("../fonts/balsamiq-sans-v3-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* balsamiq-sans-700 - latin */
+@font-face {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/balsamiq-sans-v3-latin-700.woff2") format("woff2"), url("../fonts/balsamiq-sans-v3-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*** VARIABLES ***/
+/*** ------------------------- *** ------------------------- *** ------------------------- *** ------------------------- ***/
+/*** BASECAMP ***/
+body {
+  font-family: "Balsamiq Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Balsamiq Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 7.5rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*** MAIN ***/
+button {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.fizz, .buzz {
+  font-weight: 700;
+}
+
+/*** VARIABLES ***/
+/*** ------------------------- *** ------------------------- *** ------------------------- *** ------------------------- ***/
+/*** BASECAMP ***/
+body {
+  background-color: #ffb703;
+  color: #023047;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+/*** MAIN ***/
+button {
+  background-color: #fb8500;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+button:hover {
+  background-color: #023047;
+}
+
+@-webkit-keyframes fizzcolor {
+  0% {
+    color: #219ebc;
+  }
+  50% {
+    color: #8ecae6;
+  }
+  100% {
+    color: #219ebc;
+  }
+}
+
+@keyframes fizzcolor {
+  0% {
+    color: #219ebc;
+  }
+  50% {
+    color: #8ecae6;
+  }
+  100% {
+    color: #219ebc;
+  }
+}
+
+.fizz {
+  -webkit-animation: fizzcolor 4s infinite;
+          animation: fizzcolor 4s infinite;
+}
+
+@-webkit-keyframes buzzcolor {
+  0% {
+    color: #8ecae6;
+  }
+  50% {
+    color: #219ebc;
+  }
+  100% {
+    color: #8ecae6;
+  }
+}
+
+@keyframes buzzcolor {
+  0% {
+    color: #8ecae6;
+  }
+  50% {
+    color: #219ebc;
+  }
+  100% {
+    color: #8ecae6;
+  }
+}
+
+.buzz {
+  -webkit-animation: buzzcolor 4s infinite;
+          animation: buzzcolor 4s infinite;
+}
+
+/*** ------------------------- *** ------------------------- *** ------------------------- *** ------------------------- ***/
+/*** BASECAMP ***/
+main {
+  width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 25px 0;
+}
+
+/*** MAIN ***/
+button {
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+#fizzbuzzgame {
+  width: 240px;
+  margin: 0 auto 50px auto;
+}
+/*# sourceMappingURL=style.css.map */

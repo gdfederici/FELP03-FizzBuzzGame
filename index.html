@@ -11,21 +11,21 @@
 
     <title>Fizz Buzz Game | Only a simple exercise in Javascript</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
+    <link rel="preload" href="/fonts/balsamiq-sans-v3-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/balsamiq-sans-v3-latin-regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/fonts/balsamiq-sans-v3-latin--700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/balsamiq-sans-v3-latin--700.woff" as="font" type="font/woff" crossorigin>
 </head>
 
 <body>
-    <p id="demo"></p>
+    <main>
+        <h1>Fizz Buzz Game</h1>
+        <button onclick="playGame()">'Stiaccia</button>
+        <div id="fizzbuzzgame"></div>
+    </main>
     
-    <script>
-        var lista="";
-        for (i=1; i<=100; i++) {
-            lista += i + " ";
-            if (i%3==0) { lista += "Fizz";}
-            if (i%5==0) { lista += "Buzz";}
-            lista += "<br/>";
-        }
-        document.getElementById("demo").innerHTML = lista;
-    </script>
-
+    <script src="scripts/game.js"></script>
 </body>
