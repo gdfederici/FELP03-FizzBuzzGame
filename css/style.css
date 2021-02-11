@@ -76,7 +76,7 @@ button:hover {
   background-color: #023047;
 }
 
-@-webkit-keyframes fizzcolor {
+@-webkit-keyframes fizzbuzzcolor {
   0% {
     color: #219ebc;
   }
@@ -88,7 +88,7 @@ button:hover {
   }
 }
 
-@keyframes fizzcolor {
+@keyframes fizzbuzzcolor {
   0% {
     color: #219ebc;
   }
@@ -100,38 +100,9 @@ button:hover {
   }
 }
 
-.fizz {
-  -webkit-animation: fizzcolor 4s infinite;
-          animation: fizzcolor 4s infinite;
-}
-
-@-webkit-keyframes buzzcolor {
-  0% {
-    color: #8ecae6;
-  }
-  50% {
-    color: #219ebc;
-  }
-  100% {
-    color: #8ecae6;
-  }
-}
-
-@keyframes buzzcolor {
-  0% {
-    color: #8ecae6;
-  }
-  50% {
-    color: #219ebc;
-  }
-  100% {
-    color: #8ecae6;
-  }
-}
-
-.buzz {
-  -webkit-animation: buzzcolor 4s infinite;
-          animation: buzzcolor 4s infinite;
+.fizz, .buzz {
+  -webkit-animation: fizzbuzzcolor 4s infinite;
+          animation: fizzbuzzcolor 4s infinite;
 }
 
 /*** ------------------------- *** ------------------------- *** ------------------------- *** ------------------------- ***/

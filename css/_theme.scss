@@ -27,19 +27,11 @@ button {
 button:hover {
     background-color: $color-buttonback_hover;
 }
-@keyframes fizzcolor {
+@keyframes fizzbuzzcolor {
     0%   {color: $color-fizz;}
     50%  {color: $color-buzz;}
     100% {color: $color-fizz;}
 }
-.fizz {
-    animation: fizzcolor 4s infinite;
-}
-@keyframes buzzcolor {
-    0%   {color: $color-buzz;}
-    50%  {color: $color-fizz;}
-    100% {color: $color-buzz;}
-}
-.buzz {
-    animation: buzzcolor 4s infinite;
+.fizz, .buzz {
+    animation: fizzbuzzcolor 4s infinite;
 }
