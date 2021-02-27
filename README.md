@@ -1,6 +1,6 @@
 # Fizz Buzz Game
 **IT_** Un semplice esercizio per il mio primo utilizzo di JavaScript.<br/>
-**EN_** A simple game for my firt time with JS.<br/>
+**EN_** A simple game for my first time with JS.<br/>
 <br/>
 ## Descrizione / Description:
 **IT_** Stampare i numeri da 1 a 100 (compresi), uno per riga. Se il numero è divisibile per 3 allora aggiungere la scritta Fizz, se il numero è divisibile per 5 allora aggiungere la scritta Buzz, se il numero è divisibile sia per 3 che per 5 aggiungere la scritta FizzBuzz.<br/>
