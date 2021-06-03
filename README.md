@@ -11,7 +11,7 @@
 **EN_** HTML, CSS, JavaScript, Trello, GitHub.<br/>
 <br/>
 ## Link:
-https://jslp01-fizzbuzzgame01.netlify.app/<br/>
+https://felp03-fizzbuzzgame.netlify.app/<br/>
 <br/>
 ## Note:
 **IT_** Primo utilizzo di JavaScript.<br/>
